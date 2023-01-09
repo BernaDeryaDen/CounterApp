@@ -1,0 +1,54 @@
+body {
+  background-color: #a8dcf0;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: bolder;
+  color: #333;
+  text-align: center;
+}
+div.screen {
+  width: 600px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.app {
+  font-size: 40px;
+  margin-bottom: -40px;
+  font-style: italic;
+}
+.countShow {
+  font-size: 150px;
+}
+.counter button {
+  border: none;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin: 10px;
+}
+.decrease {
+  background-color: #4caf50;
+}
+.decrease:hover {
+  cursor: pointer;
+  background-color: #2a612c;
+}
+.increase {
+  background-color: #2196f3;
+}
+.increase:hover {
+  cursor: pointer;
+  background-color: #10436d;
+}
+.reset {
+  background-color: #f44336;
+}
+.reset:hover {
+  cursor: pointer;
+  background-color: #a61e1e;
+}
